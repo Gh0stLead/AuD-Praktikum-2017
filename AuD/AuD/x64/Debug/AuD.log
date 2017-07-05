@@ -1,0 +1,20 @@
+﻿  main.cpp
+c:\users\chkku\documents\visual studio 2015\aud\aud\util.h(50): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+  c:\users\chkku\documents\visual studio 2015\aud\aud\util.h(50): note: Dieser Member wird vom Standardkonstruktor oder Zuweisungsoperator für Kopieren/Verschieben ignoriert.
+  c:\users\chkku\documents\visual studio 2015\aud\aud\testcode.cpp(17): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "Item<0,0>".
+c:\users\chkku\documents\visual studio 2015\aud\aud\testcode.cpp(38): warning C4267: "Argument": Konvertierung von "size_t" nach "const int", Datenverlust möglich
+c:\users\chkku\documents\visual studio 2015\aud\aud\testcode.cpp(118): warning C4267: "Argument": Konvertierung von "size_t" nach "const int", Datenverlust möglich
+  c:\users\chkku\documents\visual studio 2015\aud\aud\testcode.cpp(133): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "std::vector<std::array<double,2>,std::allocator<_Ty>> RunPhase<0>(void)".
+          with
+          [
+              _Ty=std::array<double,2>
+          ]
+c:\users\chkku\documents\visual studio 2015\aud\aud\testcode.cpp(119): warning C4267: "Argument": Konvertierung von "size_t" nach "const int", Datenverlust möglich
+c:\users\chkku\documents\visual studio 2015\aud\aud\testcode.cpp(84): warning C4267: "Argument": Konvertierung von "size_t" nach "const int", Datenverlust möglich
+  c:\users\chkku\documents\visual studio 2015\aud\aud\main.cpp(28): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "std::vector<std::array<double,3>,std::allocator<_Ty>> ScanD<CheapItem>(void)".
+          with
+          [
+              _Ty=std::array<double,3>
+          ]
+  AuD.vcxproj -> C:\Users\chkku\Documents\Visual Studio 2015\AuD\x64\Debug\AuD.exe
+  AuD.vcxproj -> C:\Users\chkku\Documents\Visual Studio 2015\AuD\x64\Debug\AuD.pdb (Full PDB)

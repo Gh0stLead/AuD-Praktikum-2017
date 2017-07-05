@@ -1,0 +1,6 @@
+c_k(i) = i*D + k + 1
+p(i) = floor((i-1) / D)
+
+added #include<string> to util.h to fix compilation errors
+added #include<functional> to testcode.cpp to fix compilation errors
+moved line 2 to line 25 in exp1-3.code.m (otherwise the last diagram is missing)
